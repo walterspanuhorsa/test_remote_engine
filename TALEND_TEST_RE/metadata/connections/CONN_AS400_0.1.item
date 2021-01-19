@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="prompt=false" DatabaseType="AS400" DatasourceName="" DbmsId="as400_id" DriverClass="com.ibm.as400.access.AS400JDBCDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:/Y1+NpZjqGrZanEeOj6JjxBvXPiFK0MfoEOxaXNDvht8eHUF" Port="" ProductId="AS400" SID="IASP01" SQLMode="false" ServerName="novadbmpls1.debortoli.lan" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:as400://novadbmpls1.debortoli.lan/IASP01;prompt=false" UiSchema="IASP01" Username="DBODBUSER" dataPackage="_ZgLQAFphEeubGN6kYlyInQ" dbVersionString="AS400_V7R1_V7R3" id="_-0mlQFpgEeubGN6kYlyInQ" label="CONN_AS400" name="CONN_AS400" xmi:id="_ZUeWUFphEeubGN6kYlyInQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_ZUhZoFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_ZVYVQFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_ZVhfMFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_ZVhfMVphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_ZVhfMlphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_ZVhfM1phEeubGN6kYlyInQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_ZVhfNFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_ZVhfNVphEeubGN6kYlyInQ"/>
+    <taggedValue tag="DB ProductName" value="DB2 UDB for AS/400" xmi:id="_ZYJVYFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="DB ProductVersion" value="07.03.0000 V7R3m0" xmi:id="_ZYJVYVphEeubGN6kYlyInQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="" xmi:id="_ZYJVYlphEeubGN6kYlyInQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="DBODBUSER" xmi:id="_ZUhZoVphEeubGN6kYlyInQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="IASP01" xmi:id="_ZgLQAFphEeubGN6kYlyInQ"/>
+</xmi:XMI>
