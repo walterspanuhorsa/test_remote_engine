@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
   <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Microsoft SQL Server" DatasourceName="" DbmsId="id_MSSQL" DriverClass="net.sourceforge.jtds.jdbc.Driver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:AAi032vNvImgpgcgXhLQ6Y2SsDGrSHBd9XqqkykSd77tkgPK8YGu5DgKHEJo" Port="1433" ProductId="SQL_SERVER" SID="DbGroupDW01" SQLMode="false" ServerName="azeutalend.database.windows.net" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:jtds:sqlserver://azeutalend.database.windows.net:1433/DbGroupDW01;" UiSchema="" Username="H_TalendEtl" dataPackage="_0zL9kGY7EeuH-PHPvJtAVQ" dbVersionString="JTDS" id="_ogljgGY7EeuH-PHPvJtAVQ" label="azure_via_userDB" name="azure_via_userDB" xmi:id="_0vphYGY7EeuH-PHPvJtAVQ">
     <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_0vphYWY7EeuH-PHPvJtAVQ"/>
     <taggedValue tag="package filter" value="" xmi:id="_0wUPwGY7EeuH-PHPvJtAVQ"/>
@@ -14,7 +14,74 @@
     <parameters key="CONN_PARA_KEY_USERNAME" value="H_TalendEtl" xmi:id="_0vphYmY7EeuH-PHPvJtAVQ"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog dataManager="_0vphYGY7EeuH-PHPvJtAVQ" name="DbGroupDW01" xmi:id="_0zL9kGY7EeuH-PHPvJtAVQ">
-    <ownedElement name="config" xmi:id="_0zL9kWY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="config" xmi:id="_0zL9kWY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_4SNCIGY7EeuH-PHPvJtAVQ" label="Country" name="Country" tableType="TABLE" xmi:id="_4SQFcGY7EeuH-PHPvJtAVQ" xsi:type="relational:TdTable">
+        <feature label="CodeCountry" length="50" name="CodeCountry" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SQFcWY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SQFcmY7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SQFc2Y7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SQFdGY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="Disk" length="50" name="Disk" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SQFdWY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SQFdmY7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SQFd2Y7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SQFeGY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="Library" length="50" name="Library" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SQFeWY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SQFemY7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SQFe2Y7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SQFfGY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="IsActive" length="1" name="IsActive" nullable="false" sourceType="BIT" talendType="id_Boolean" xmi:id="_4SQFfWY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SQFfmY7EeuH-PHPvJtAVQ"/>
+          <initialValue body="'((0))'" language="COLUMN_DEF" xmi:id="_4SQFf2Y7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-7" name="BIT" xmi:id="_4SQFgGY7EeuH-PHPvJtAVQ"/>
+        </feature>
+      </ownedElement>
+      <ownedElement id="_4SU98GY7EeuH-PHPvJtAVQ" label="v_Sourcetable" name="v_Sourcetable" tableType="VIEW" xmi:id="_4SU98WY7EeuH-PHPvJtAVQ" xsi:type="relational:TdView">
+        <feature label="Schema" length="155" name="Schema" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SU98mY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SU982Y7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SU99GY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SU99WY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="tablename" length="50" name="tablename" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SU99mY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SU992Y7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SU9-GY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SU9-WY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="CompleteTableName" length="206" name="CompleteTableName" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SU9-mY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SU9-2Y7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SU9_GY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SU9_WY7EeuH-PHPvJtAVQ"/>
+        </feature>
+      </ownedElement>
+      <ownedElement id="_4SbEkGY7EeuH-PHPvJtAVQ" label="SourceTables" name="SourceTables" tableType="TABLE" xmi:id="_4SbEkWY7EeuH-PHPvJtAVQ" xsi:type="relational:TdTable">
+        <feature label="TableName" length="50" name="TableName" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SbEkmY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SbEk2Y7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SbElGY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SbElWY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="DescrTable" length="255" name="DescrTable" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SbElmY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SbEl2Y7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SbEmGY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SbEmWY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="Notes" length="4000" name="Notes" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SbEmmY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SbEm2Y7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SbEnGY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SbEnWY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="CodeSource" length="100" name="CodeSource" sourceType="NVARCHAR" talendType="id_String" xmi:id="_4SbEnmY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SbEn2Y7EeuH-PHPvJtAVQ"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_4SbEoGY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" nullable="columnNullable" xmi:id="_4SbEoWY7EeuH-PHPvJtAVQ"/>
+        </feature>
+        <feature label="IsActive" length="1" name="IsActive" nullable="false" sourceType="BIT" talendType="id_Boolean" xmi:id="_4SbEomY7EeuH-PHPvJtAVQ" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_4SbEo2Y7EeuH-PHPvJtAVQ"/>
+          <initialValue body="'((0))'" language="COLUMN_DEF" xmi:id="_4SbEpGY7EeuH-PHPvJtAVQ" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-7" name="BIT" xmi:id="_4SbEpWY7EeuH-PHPvJtAVQ"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
     <ownedElement name="db_accessadmin" xmi:id="_0zL9kmY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
     <ownedElement name="db_backupoperator" xmi:id="_0zL9k2Y7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
     <ownedElement name="db_datareader" xmi:id="_0zL9lGY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
