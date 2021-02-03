@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendMetadata:DatabaseConnection xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xmi="http://www.omg.org/XMI" AdditionalParams="authentication=ActiveDirectoryPassword" DatabaseType="Microsoft SQL Server" DatasourceName="" DbmsId="id_MSSQL" DriverClass="net.sourceforge.jtds.jdbc.Driver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:lkFY9H3vkExDUcdA6NuhjNGzAlkDJ3JGrGtK0V191vCatnFZzuOl" Port="1433" ProductId="SQL_SERVER" SID="" SQLMode="false" ServerName="azeutalend.database.windows.net" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:jtds:sqlserver://azeutalend.database.windows.net:1433/;authentication=ActiveDirectoryPassword" UiSchema="talend01" Username="dbghorsa@dbgroup.net" dbVersionString="JTDS" id="_qWot4GY1EeuH-PHPvJtAVQ" label="mssql_azure_via_AD" name="mssql_azure_via_AD" xmi:id="_Fs1C8GY2EeuH-PHPvJtAVQ" xmi:version="2.0">
+  <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_Fs1C8WY2EeuH-PHPvJtAVQ"/>
+  <taggedValue tag="package filter" value="" xmi:id="_FtfxUGY2EeuH-PHPvJtAVQ"/>
+  <taggedValue tag="Status" value="" xmi:id="_FtfxUWY2EeuH-PHPvJtAVQ"/>
+  <taggedValue tag="Version" value="0.1" xmi:id="_FtfxUmY2EeuH-PHPvJtAVQ"/>
+  <taggedValue tag="Purpose" value="" xmi:id="_FtfxU2Y2EeuH-PHPvJtAVQ"/>
+  <taggedValue tag="Description" value="" xmi:id="_FtfxVGY2EeuH-PHPvJtAVQ"/>
+  <taggedValue tag="Author" value="" xmi:id="_FtfxVWY2EeuH-PHPvJtAVQ"/>
+  <taggedValue tag="otherParameter" xmi:id="_FtfxVmY2EeuH-PHPvJtAVQ"/>
+  <parameters key="CONN_PARA_KEY_USERNAME" value="dbghorsa@dbgroup.net" xmi:id="_Fs1C8mY2EeuH-PHPvJtAVQ"/>
+</TalendMetadata:DatabaseConnection>
