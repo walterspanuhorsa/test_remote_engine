@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Microsoft SQL Server" DatasourceName="" DbmsId="id_MSSQL" DriverClass="net.sourceforge.jtds.jdbc.Driver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:AAi032vNvImgpgcgXhLQ6Y2SsDGrSHBd9XqqkykSd77tkgPK8YGu5DgKHEJo" Port="1433" ProductId="SQL_SERVER" SID="DbGroupDW01" SQLMode="false" ServerName="azeutalend.database.windows.net" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:jtds:sqlserver://azeutalend.database.windows.net:1433/DbGroupDW01;" UiSchema="" Username="H_TalendEtl" dataPackage="_0zL9kGY7EeuH-PHPvJtAVQ" dbVersionString="JTDS" id="_ogljgGY7EeuH-PHPvJtAVQ" label="azure_via_userDB" name="azure_via_userDB" xmi:id="_0vphYGY7EeuH-PHPvJtAVQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_0vphYWY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_0wUPwGY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_0wUPwWY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_0wUPwmY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_0wUPw2Y7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_0wUPxGY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_0wUPxWY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_0wUPxmY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="DB ProductName" value="Microsoft SQL Server" xmi:id="_0xXYoGY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="DB ProductVersion" value="12.00.2000" xmi:id="_0xXYoWY7EeuH-PHPvJtAVQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_0xXYomY7EeuH-PHPvJtAVQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="H_TalendEtl" xmi:id="_0vphYmY7EeuH-PHPvJtAVQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_0vphYGY7EeuH-PHPvJtAVQ" name="DbGroupDW01" xmi:id="_0zL9kGY7EeuH-PHPvJtAVQ">
+    <ownedElement name="config" xmi:id="_0zL9kWY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_accessadmin" xmi:id="_0zL9kmY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_backupoperator" xmi:id="_0zL9k2Y7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_datareader" xmi:id="_0zL9lGY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_datawriter" xmi:id="_0zL9lWY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_ddladmin" xmi:id="_0zL9lmY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_denydatareader" xmi:id="_0zL9l2Y7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_denydatawriter" xmi:id="_0zL9mGY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_owner" xmi:id="_0zL9mWY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_securityadmin" xmi:id="_0zL9mmY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="dbo" xmi:id="_0zL9m2Y7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="guest" xmi:id="_0zL9nGY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="INFORMATION_SCHEMA" xmi:id="_0zL9nWY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sys" xmi:id="_0zL9nmY7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="temp" xmi:id="_0zL9n2Y7EeuH-PHPvJtAVQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
