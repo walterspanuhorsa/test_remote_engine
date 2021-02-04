@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="AS400" DatasourceName="" DbmsId="as400_id" DriverClass="com.ibm.as400.access.AS400JDBCDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:0GlHLJJ8XuBg4mHw3v+1IR8Dgw06oO/cv+JJH3jApoWn/Xd6" Port="" ProductId="AS400" SID="" SQLMode="false" ServerName="novadbmpls1.debortoli.lan;library=DBO_DAT4M" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:as400://novadbmpls1.debortoli.lan;library=DBO_DAT4M/;" UiSchema="" Username="DBODBUSER" dataPackage="_hjU7kGbtEeubr4k7RyZReg _hjU7kWbtEeubr4k7RyZReg _hjU7kmbtEeubr4k7RyZReg _hjU7k2btEeubr4k7RyZReg _hjU7lGbtEeubr4k7RyZReg _hjU7lWbtEeubr4k7RyZReg _hjU7lmbtEeubr4k7RyZReg _hjU7l2btEeubr4k7RyZReg _hjU7mGbtEeubr4k7RyZReg _hjU7mWbtEeubr4k7RyZReg _hjU7mmbtEeubr4k7RyZReg _hjU7m2btEeubr4k7RyZReg _hjU7nGbtEeubr4k7RyZReg _hjU7nWbtEeubr4k7RyZReg _hjU7nmbtEeubr4k7RyZReg _hjU7n2btEeubr4k7RyZReg _hjU7oGbtEeubr4k7RyZReg _hjU7oWbtEeubr4k7RyZReg _hjU7ombtEeubr4k7RyZReg _hjU7o2btEeubr4k7RyZReg _hjU7pGbtEeubr4k7RyZReg _hjU7pWbtEeubr4k7RyZReg _hjU7pmbtEeubr4k7RyZReg _hjU7p2btEeubr4k7RyZReg _hjU7qGbtEeubr4k7RyZReg _hjU7qWbtEeubr4k7RyZReg _hjU7qmbtEeubr4k7RyZReg _hjU7q2btEeubr4k7RyZReg _hjU7rGbtEeubr4k7RyZReg _hjU7rWbtEeubr4k7RyZReg _hjU7rmbtEeubr4k7RyZReg _hjU7r2btEeubr4k7RyZReg _hjU7sGbtEeubr4k7RyZReg _hjU7sWbtEeubr4k7RyZReg _hjU7smbtEeubr4k7RyZReg _hjU7s2btEeubr4k7RyZReg _hjU7tGbtEeubr4k7RyZReg _hjU7tWbtEeubr4k7RyZReg _hjU7tmbtEeubr4k7RyZReg _hjU7t2btEeubr4k7RyZReg _hjU7uGbtEeubr4k7RyZReg _hjU7uWbtEeubr4k7RyZReg _hjU7umbtEeubr4k7RyZReg _hjU7u2btEeubr4k7RyZReg _hjU7vGbtEeubr4k7RyZReg _hjU7vWbtEeubr4k7RyZReg _hjU7vmbtEeubr4k7RyZReg _hjU7v2btEeubr4k7RyZReg _hjU7wGbtEeubr4k7RyZReg _hjU7wWbtEeubr4k7RyZReg _hjU7wmbtEeubr4k7RyZReg _hjU7w2btEeubr4k7RyZReg _hjU7xGbtEeubr4k7RyZReg _hjU7xWbtEeubr4k7RyZReg _hjU7xmbtEeubr4k7RyZReg _hjU7x2btEeubr4k7RyZReg _hjU7yGbtEeubr4k7RyZReg _hjU7yWbtEeubr4k7RyZReg _hjU7ymbtEeubr4k7RyZReg _hjU7y2btEeubr4k7RyZReg _hjU7zGbtEeubr4k7RyZReg _hjU7zWbtEeubr4k7RyZReg _hjU7zmbtEeubr4k7RyZReg _hjU7z2btEeubr4k7RyZReg _hjU70GbtEeubr4k7RyZReg _hjU70WbtEeubr4k7RyZReg _hjU70mbtEeubr4k7RyZReg _hjU702btEeubr4k7RyZReg _hjU71GbtEeubr4k7RyZReg _hjU71WbtEeubr4k7RyZReg _hjU71mbtEeubr4k7RyZReg _hjU712btEeubr4k7RyZReg _hjU72GbtEeubr4k7RyZReg _hjU72WbtEeubr4k7RyZReg _hjU72mbtEeubr4k7RyZReg _hjU722btEeubr4k7RyZReg _hjU73GbtEeubr4k7RyZReg _hjU73WbtEeubr4k7RyZReg _hjU73mbtEeubr4k7RyZReg _hjU732btEeubr4k7RyZReg _hjU74GbtEeubr4k7RyZReg _hjU74WbtEeubr4k7RyZReg _hjU74mbtEeubr4k7RyZReg _hjU742btEeubr4k7RyZReg _hjU75GbtEeubr4k7RyZReg _hjU75WbtEeubr4k7RyZReg _hjU75mbtEeubr4k7RyZReg _hjU752btEeubr4k7RyZReg _hjU76GbtEeubr4k7RyZReg _hjU76WbtEeubr4k7RyZReg _hjU76mbtEeubr4k7RyZReg _hjU762btEeubr4k7RyZReg _hjU77GbtEeubr4k7RyZReg _hjU77WbtEeubr4k7RyZReg _hjU77mbtEeubr4k7RyZReg _hjU772btEeubr4k7RyZReg _hjU78GbtEeubr4k7RyZReg _hjU78WbtEeubr4k7RyZReg _hjU78mbtEeubr4k7RyZReg _hjU782btEeubr4k7RyZReg _hjU79GbtEeubr4k7RyZReg _hjU79WbtEeubr4k7RyZReg _hjU79mbtEeubr4k7RyZReg _hjU792btEeubr4k7RyZReg _hjU7-GbtEeubr4k7RyZReg _hjU7-WbtEeubr4k7RyZReg _hjU7-mbtEeubr4k7RyZReg _hjU7-2btEeubr4k7RyZReg _hjU7_GbtEeubr4k7RyZReg _hjU7_WbtEeubr4k7RyZReg _hjU7_mbtEeubr4k7RyZReg _hjU7_2btEeubr4k7RyZReg _hjU8AGbtEeubr4k7RyZReg _hjU8AWbtEeubr4k7RyZReg _hjU8AmbtEeubr4k7RyZReg _hjU8A2btEeubr4k7RyZReg _hjU8BGbtEeubr4k7RyZReg _hjU8BWbtEeubr4k7RyZReg _hjU8BmbtEeubr4k7RyZReg _hjU8B2btEeubr4k7RyZReg _hjU8CGbtEeubr4k7RyZReg _hjU8CWbtEeubr4k7RyZReg _hjU8CmbtEeubr4k7RyZReg _hjU8C2btEeubr4k7RyZReg _hjU8DGbtEeubr4k7RyZReg _hjU8DWbtEeubr4k7RyZReg _hjU8DmbtEeubr4k7RyZReg _hjU8D2btEeubr4k7RyZReg _hjU8EGbtEeubr4k7RyZReg _hjU8EWbtEeubr4k7RyZReg _hjU8EmbtEeubr4k7RyZReg _hjU8E2btEeubr4k7RyZReg _hjU8FGbtEeubr4k7RyZReg _hjU8FWbtEeubr4k7RyZReg _hjU8FmbtEeubr4k7RyZReg _hjU8F2btEeubr4k7RyZReg _hjU8GGbtEeubr4k7RyZReg _hjU8GWbtEeubr4k7RyZReg _hjU8GmbtEeubr4k7RyZReg _hjU8G2btEeubr4k7RyZReg _hjU8HGbtEeubr4k7RyZReg _hjU8HWbtEeubr4k7RyZReg _hjU8HmbtEeubr4k7RyZReg _hjU8H2btEeubr4k7RyZReg _hjU8IGbtEeubr4k7RyZReg _hjU8IWbtEeubr4k7RyZReg _hjU8ImbtEeubr4k7RyZReg _hjU8I2btEeubr4k7RyZReg _hjU8JGbtEeubr4k7RyZReg _hjU8JWbtEeubr4k7RyZReg _hjU8JmbtEeubr4k7RyZReg _hjU8J2btEeubr4k7RyZReg _hjU8KGbtEeubr4k7RyZReg _hjU8KWbtEeubr4k7RyZReg _hjU8KmbtEeubr4k7RyZReg _hjU8K2btEeubr4k7RyZReg _hjU8LGbtEeubr4k7RyZReg _hjU8LWbtEeubr4k7RyZReg _hjU8LmbtEeubr4k7RyZReg _hjU8L2btEeubr4k7RyZReg _hjU8MGbtEeubr4k7RyZReg _hjU8MWbtEeubr4k7RyZReg _hjU8MmbtEeubr4k7RyZReg _hjU8M2btEeubr4k7RyZReg _hjU8NGbtEeubr4k7RyZReg _hjU8NWbtEeubr4k7RyZReg _hjU8NmbtEeubr4k7RyZReg _hjU8N2btEeubr4k7RyZReg _hjU8OGbtEeubr4k7RyZReg _hjU8OWbtEeubr4k7RyZReg _hjU8OmbtEeubr4k7RyZReg _hjU8O2btEeubr4k7RyZReg _hjU8PGbtEeubr4k7RyZReg _hjU8PWbtEeubr4k7RyZReg _hjU8PmbtEeubr4k7RyZReg _hjU8P2btEeubr4k7RyZReg _hjU8QGbtEeubr4k7RyZReg _hjU8QWbtEeubr4k7RyZReg _hjU8QmbtEeubr4k7RyZReg _hjU8Q2btEeubr4k7RyZReg _hjU8RGbtEeubr4k7RyZReg _hjU8RWbtEeubr4k7RyZReg _hjU8RmbtEeubr4k7RyZReg _hjU8R2btEeubr4k7RyZReg _hjU8SGbtEeubr4k7RyZReg _hjU8SWbtEeubr4k7RyZReg _hjU8SmbtEeubr4k7RyZReg _hjU8S2btEeubr4k7RyZReg _hjU8TGbtEeubr4k7RyZReg _hjU8TWbtEeubr4k7RyZReg _hjU8TmbtEeubr4k7RyZReg _hjU8T2btEeubr4k7RyZReg _hjU8UGbtEeubr4k7RyZReg _hjU8UWbtEeubr4k7RyZReg _hjU8UmbtEeubr4k7RyZReg _hjU8U2btEeubr4k7RyZReg _hjU8VGbtEeubr4k7RyZReg _hjU8VWbtEeubr4k7RyZReg _hjU8VmbtEeubr4k7RyZReg" dbVersionString="AS400_V7R1_V7R3" id="_-0mlQFpgEeubGN6kYlyInQ" label="IASP01_DB2_AS400" name="IASP01_DB2_AS400" xmi:id="_ZUeWUFphEeubGN6kYlyInQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_ZUhZoFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_ZVYVQFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_ZVhfMFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_ZVhfMVphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_ZVhfMlphEeubGN6kYlyInQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_ZVhfM1phEeubGN6kYlyInQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_ZVhfNFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_ZVhfNVphEeubGN6kYlyInQ"/>
+    <taggedValue tag="DB ProductName" value="DB2 UDB for AS/400" xmi:id="_ZYJVYFphEeubGN6kYlyInQ"/>
+    <taggedValue tag="DB ProductVersion" value="07.03.0000 V7R3m0" xmi:id="_ZYJVYVphEeubGN6kYlyInQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="" xmi:id="_ZYJVYlphEeubGN6kYlyInQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="DBODBUSER" xmi:id="_ZUhZoVphEeubGN6kYlyInQ"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_bCae0FphEeubGN6kYlyInQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="AEZ_INF6CH" xmi:id="_hjU7kGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ALERTMSG" xmi:id="_hjU7kWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ALS4_INFEZ" xmi:id="_hjU7kmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BARTVAS" xmi:id="_hjU7k2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1081S" xmi:id="_hjU7lGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1082S" xmi:id="_hjU7lWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1083S" xmi:id="_hjU7lmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1084S" xmi:id="_hjU7l2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1085S" xmi:id="_hjU7mGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1086S" xmi:id="_hjU7mWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1087S" xmi:id="_hjU7mmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1088S" xmi:id="_hjU7m2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1089S" xmi:id="_hjU7nGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1090S" xmi:id="_hjU7nWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1091S" xmi:id="_hjU7nmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE1092S" xmi:id="_hjU7n2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2000S" xmi:id="_hjU7oGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2001S" xmi:id="_hjU7oWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2002S" xmi:id="_hjU7ombtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2003S" xmi:id="_hjU7o2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2004S" xmi:id="_hjU7pGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2005S" xmi:id="_hjU7pWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2007S" xmi:id="_hjU7pmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2100S" xmi:id="_hjU7p2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2101S" xmi:id="_hjU7qGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2102S" xmi:id="_hjU7qWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2103S" xmi:id="_hjU7qmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BEONE2104S" xmi:id="_hjU7q2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BRGF_MODU" xmi:id="_hjU7rGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="BRG4_INFMM" xmi:id="_hjU7rWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="CIRCOLARI" xmi:id="_hjU7rmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="CMB_INF7A" xmi:id="_hjU7r2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="CMM_INFE8C" xmi:id="_hjU7sGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="CMM_INF7CH" xmi:id="_hjU7sWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="CSD4_INF10" xmi:id="_hjU7smbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DLL_INF5CH" xmi:id="_hjU7s2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DMR_INF5CH" xmi:id="_hjU7tGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DORIANO" xmi:id="_hjU7tWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DSCLU_GEO" xmi:id="_hjU7tmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DSCLU_PAS" xmi:id="_hjU7t2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DSCLUSTER" xmi:id="_hjU7uGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DSDISKINF" xmi:id="_hjU7uWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="DSUSRPRF" xmi:id="_hjU7umbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ELVIS" xmi:id="_hjU7u2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ERB4_EN5CH" xmi:id="_hjU7vGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="FABIO" xmi:id="_hjU7vWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="FABIO_CONV" xmi:id="_hjU7vmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="HNG_INFMGG" xmi:id="_hjU7v2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="HNG_INF3CH" xmi:id="_hjU7wGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="JULIO" xmi:id="_hjU7wWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="LNT4_INF7H" xmi:id="_hjU7wmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="LUCA" xmi:id="_hjU7w2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="LUCASART" xmi:id="_hjU7xGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="MARCO" xmi:id="_hjU7xWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="MARCODEVD" xmi:id="_hjU7xmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="METODO" xmi:id="_hjU7x2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="MICHELANGE" xmi:id="_hjU7yGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="MTWCESP2" xmi:id="_hjU7yWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="NETSRVCMD" xmi:id="_hjU7ymbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="NEWLOOK" xmi:id="_hjU7y2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="NSE_IFS" xmi:id="_hjU7zGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="NSENV_DAT" xmi:id="_hjU7zWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="NSS_OUT" xmi:id="_hjU7zmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="NSSTRANSFE" xmi:id="_hjU7z2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="PLEX600" xmi:id="_hjU70GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="PLEX721" xmi:id="_hjU70WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="PTFDORIANO" xmi:id="_hjU70mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="PTFLUCA" xmi:id="_hjU702btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="PTFMARCO" xmi:id="_hjU71GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="PTVEUROSYS" xmi:id="_hjU71WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="P721024004" xmi:id="_hjU71mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QCAEXP" xmi:id="_hjU712btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QCA400W" xmi:id="_hjU72GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QCBLLE" xmi:id="_hjU72WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QCBLLEP" xmi:id="_hjU72mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QCLUSTER" xmi:id="_hjU722btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QCTX" xmi:id="_hjU73GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QDEVTOOLS" xmi:id="_hjU73WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QDIRSRV2" xmi:id="_hjU73mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QDOC" xmi:id="_hjU732btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QDSNX" xmi:id="_hjU74GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QFNTWT" xmi:id="_hjU74WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QGDDM" xmi:id="_hjU74mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QGPL" xmi:id="_hjU742btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QGPLTEMP" xmi:id="_hjU75GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QGY" xmi:id="_hjU75WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QHASM" xmi:id="_hjU75mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QHLPSYS" xmi:id="_hjU752btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QHTTP" xmi:id="_hjU76GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QHTTPSVR" xmi:id="_hjU76WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QICSS" xmi:id="_hjU76mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QICU" xmi:id="_hjU762btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QINMEDIA" xmi:id="_hjU77GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QINPRIOR" xmi:id="_hjU77WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QINSYS" xmi:id="_hjU77mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QIWA2" xmi:id="_hjU772btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QIWS" xmi:id="_hjU78GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QJAVA" xmi:id="_hjU78WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QJVM7032" xmi:id="_hjU78mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QJVM7064" xmi:id="_hjU782btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QJVM8032" xmi:id="_hjU79GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QJVM8064" xmi:id="_hjU79WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QLBL" xmi:id="_hjU79mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QLWIRADM" xmi:id="_hjU792btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QMGTC" xmi:id="_hjU7-GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QMGTC2" xmi:id="_hjU7-WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QMGTOOLS" xmi:id="_hjU7-mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QNAE" xmi:id="_hjU7-2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QNAVACS" xmi:id="_hjU7_GbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QNAVSRV" xmi:id="_hjU7_WbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QOAR" xmi:id="_hjU7_mbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPASE" xmi:id="_hjU7_2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPDA" xmi:id="_hjU8AGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPD2978290" xmi:id="_hjU8AWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPFR" xmi:id="_hjU8AmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPFRDATA" xmi:id="_hjU8A2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPFRHIST" xmi:id="_hjU8BGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPFRTEMP" xmi:id="_hjU8BWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPTFOBJ1" xmi:id="_hjU8BmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPTFOBJ2" xmi:id="_hjU8B2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QPZ909_110" xmi:id="_hjU8CGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QQALIB" xmi:id="_hjU8CWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QQFTEMP" xmi:id="_hjU8CmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QQRYLIB" xmi:id="_hjU8C2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QRCL" xmi:id="_hjU8DGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QRECOVERY" xmi:id="_hjU8DWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QRPG" xmi:id="_hjU8DmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QRPGLE" xmi:id="_hjU8D2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QRPLOBJ" xmi:id="_hjU8EGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSC2978290" xmi:id="_hjU8EWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSERVICE" xmi:id="_hjU8EmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSHELL" xmi:id="_hjU8E2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSPL" xmi:id="_hjU8FGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSQL" xmi:id="_hjU8FWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSR" xmi:id="_hjU8FmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSRV" xmi:id="_hjU8F2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSRVAGT" xmi:id="_hjU8GGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYS" xmi:id="_hjU8GWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYSCGI" xmi:id="_hjU8GmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYSDIR" xmi:id="_hjU8G2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYSINC" xmi:id="_hjU8HGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYSV7R1M0" xmi:id="_hjU8HWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYSV7R2M0" xmi:id="_hjU8HmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYS2" xmi:id="_hjU8H2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYS2924" xmi:id="_hjU8IGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYS2931" xmi:id="_hjU8IWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QSYS2940" xmi:id="_hjU8ImbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QTCP" xmi:id="_hjU8I2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QTEMP" xmi:id="_hjU8JGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QTILIB" xmi:id="_hjU8JWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QTIVCIT" xmi:id="_hjU8JmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUME" xmi:id="_hjU8J2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUSRDIRCF" xmi:id="_hjU8KGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUSRDIRDB" xmi:id="_hjU8KWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUSRHASM" xmi:id="_hjU8KmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUSRSYS" xmi:id="_hjU8K2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUSRTEMP" xmi:id="_hjU8LGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUSRTOOL" xmi:id="_hjU8LWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QUTL" xmi:id="_hjU8LmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="QXMLSERV" xmi:id="_hjU8L2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="RIKITCP" xmi:id="_hjU8MGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ROBERTO" xmi:id="_hjU8MWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SACCO" xmi:id="_hjU8MmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SEBASTIANO" xmi:id="_hjU8M2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SIIV10" xmi:id="_hjU8NGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SIIV10F" xmi:id="_hjU8NWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SOT_MCM" xmi:id="_hjU8NmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STEFANO" xmi:id="_hjU8N2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS" xmi:id="_hjU8OGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_EN3CH" xmi:id="_hjU8OWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_EN5CH" xmi:id="_hjU8OmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_INFEI" xmi:id="_hjU8O2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_INFES" xmi:id="_hjU8PGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_INFFR" xmi:id="_hjU8PWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_INFSI" xmi:id="_hjU8PmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN01A" xmi:id="_hjU8P2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN01I" xmi:id="_hjU8QGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN01Q" xmi:id="_hjU8QWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN02E" xmi:id="_hjU8QmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN04A" xmi:id="_hjU8Q2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN04H" xmi:id="_hjU8RGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN3CH" xmi:id="_hjU8RWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_IN9CH" xmi:id="_hjU8RmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_R54CH" xmi:id="_hjU8R2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="STS4_R55CH" xmi:id="_hjU8SGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SYSIBM" xmi:id="_hjU8SWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SYSIBMADM" xmi:id="_hjU8SmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SYSPROC" xmi:id="_hjU8S2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="SYSTOOLS" xmi:id="_hjU8TGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="WALTER" xmi:id="_hjU8TWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="XL_EX55" xmi:id="_hjU8TmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="XL_LCSRV" xmi:id="_hjU8T2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="XL_PRDEMO" xmi:id="_hjU8UGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="XL_PRESTOI" xmi:id="_hjU8UWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="XL_WEBSPT" xmi:id="_hjU8UmbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ZEBRAC1" xmi:id="_hjU8U2btEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ZENDPHP7" xmi:id="_hjU8VGbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ZZGPL" xmi:id="_hjU8VWbtEeubr4k7RyZReg"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_ZUeWUFphEeubGN6kYlyInQ" name="ZZUSRSYS" xmi:id="_hjU8VmbtEeubr4k7RyZReg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2d4975d6-b8a1-49ef-8443-0d03d0c8409e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YwUMeatLvwUtCrZy4tim8XJXOdNTjrEPTQrXaMa0AfCTvMk1V+EztMn6YP/Pbpb8Bp5phR1kIEKg
+ffVRSMk1hA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7ba5961a-2c2c-45f4-b1d6-91c8d3a3c870"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>A6cG8r/Jyvkt0xwsyRDu61MqV4WdcZCAljaBsIbTJlUWd3SpUzdt+qVOQ90i6Lvp6QvEHQRbnDj0
+xR7vLXS8nw==</DigestValue></Reference></SignedInfo><SignatureValue>f2qQoTUD5CZVwFu6ev+4o/OyIlGjePVnJdH4MQYiNN0np5W6i24tfnwcNkIou448R92LLO+NRaDp
+JL/7OPwUmFEuaf5RZ8uoHV/Oz8T/5hoET7bK6+Oem7c5JN2KBT9rv1jeSmOkmxAxbGhQ+qOvUsM7
+o8OOinfq4oNq0PtutET4l7NNfC7Qu5aNro47F3IC3oUROXZ2Z30UPPmqGaI0JFJabLJ28HI4m4nN
+FpKkJJeIA/D4wfUSzpMZdCRwXOk6zqf7KYYJjr59pNiIRZiyO9Sq/aTgszNpRsWYjcZork4y065L
+2PG41VW1SAjmzGnOkpn6TQ1jlociRT7hRXDi2w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7ba5961a-2c2c-45f4-b1d6-91c8d3a3c870" Target="#_2d4975d6-b8a1-49ef-8443-0d03d0c8409e"><Timestamp>2021-02-04 13:33:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
