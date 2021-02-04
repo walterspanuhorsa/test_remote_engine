@@ -67,7 +67,7 @@
         "show" : true,
         "field" : "DIRECTORY",
         "name" : "FILE_PATH",
-        "value" : "\"C:/Users/dbghorsa/workspace/.metadata\"",
+        "value" : "\"C:/workspace2/.metadata\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:wyBKCQZu7UsDHPXaBdf7nVd4vusZC3n57gPt953O",
+        "value" : "enc:system.encryption.key.v1:OdtHZ5y1K9mpGnNm+fZ8y/BhYomnMGfeJwd6J3nE",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:DIxJOwqxP9mgRpqfs7u3JqQmkTpWdpU6Ypn0zFJh",
+        "value" : "enc:system.encryption.key.v1:6BM9yvwgx1vjRWaBv4BaUZ77ugKB5xpEeu4Sl8nD",
         "contextMode" : false
       }, {
         "show" : true,
