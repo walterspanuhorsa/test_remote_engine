@@ -143,6 +143,11 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.talend_test_re.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
