@@ -37,19 +37,19 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_STATCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_LOGCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_METERCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -97,7 +97,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_DATABASE_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -109,19 +109,19 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_TYPE",
-        "value" : "tJDBCOutput",
+        "value" : "tMSSqlOutput",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_VERSION",
-        "value" : "ORACLE_12",
+        "value" : "MSSQL_PROP",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "URL",
-        "value" : "\"\"",
+        "value" : "",
         "contextMode" : false
       }, {
         "show" : true,
@@ -132,13 +132,13 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "DRIVER_CLASS",
-        "value" : "\"\"",
+        "value" : "",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "HOST",
-        "value" : "\"\"",
+        "value" : "\"azeutalend.database.windows.net\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -150,13 +150,13 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "DBNAME",
-        "value" : "\"\"",
+        "value" : "\"DbGroupDW01\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "LOCAL_SERVICE_NAME",
-        "value" : "\"\"",
+        "value" : "\"DbGroupDW01\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -168,19 +168,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "SCHEMA_DB",
-        "value" : "\"\"",
+        "value" : "\"temp\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "USER",
-        "value" : "\"\"",
+        "value" : "\"H_TalendEtl\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:OdtHZ5y1K9mpGnNm+fZ8y/BhYomnMGfeJwd6J3nE",
+        "value" : "enc:system.encryption.key.v1:dq2wgDFOGmX8lkRppsWcTbVBkykjo2PN5c3Z4uTCeX2+9XEdErrP8A/vvz01Saw=",
         "contextMode" : false
       }, {
         "show" : true,
@@ -192,19 +192,19 @@
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_STATS",
-        "value" : "\"\"",
+        "value" : "\"LOG_STATS_TALEND\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_LOGS",
-        "value" : "\"\"",
+        "value" : "\"LOG_ERRORS_TALEND\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_METER",
-        "value" : "\"\"",
+        "value" : "\"LOG_VOLUMETRICS_TALEND\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -240,13 +240,13 @@
         "show" : true,
         "field" : "TECHNICAL",
         "name" : "PROPERTY_TYPE:PROPERTY_TYPE",
-        "value" : "BUILT_IN",
+        "value" : "REPOSITORY",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TECHNICAL",
         "name" : "PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE",
-        "value" : "",
+        "value" : "_SopLMGYMEeu7CYg_M6tNYg",
         "contextMode" : false
       } ]
     }
