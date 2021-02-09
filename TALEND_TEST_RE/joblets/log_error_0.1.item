@@ -51,7 +51,7 @@
       <contextParameter comment="" name="dwh_database" prompt="dwh_database?" promptNeeded="false" type="id_String" value="dwh_bi_talend"/>
       <contextParameter comment="" name="dwh_username" prompt="dwh_username?" promptNeeded="false" type="id_String" value="ict.bi_analytics"/>
       <contextParameter comment="" name="dwh_host" prompt="dwh_host?" promptNeeded="false" type="id_String" value="SRVITADWH01"/>
-      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:YX5lLVvZuwRV2M37DyrtKjSiHma0HAyYIR+eXsd46RDmIG0/M+w="/>
+      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:BMLSH4YbWod1zssjSFDlOkJV7U8tszOzUVULJbfSPJVyGaHsxZg="/>
       <contextParameter comment="" name="COMP_DES" prompt="COMP_DES?" promptNeeded="false" type="id_String" value=""/>
       <contextParameter comment="" name="COMP_TYPE_DES" prompt="COMP_TYPE_DES?" promptNeeded="false" type="id_String" value=""/>
       <contextParameter comment="" name="COMP_TIME_ZONE_COD" prompt="COMP_TIME_ZONE_COD?" promptNeeded="false" type="id_String" value=""/>
@@ -64,7 +64,7 @@
       <contextParameter comment="" name="COMP_COD_FINANCIAL" prompt="COMP_COD_FINANCIAL?" promptNeeded="false" type="id_Integer" value=""/>
       <contextParameter comment="" name="COMP_COD_STD_COST" prompt="COMP_COD_STD_COST?" promptNeeded="false" type="id_String" value=""/>
       <contextParameter comment="" name="erp_host" prompt="erp_host?" promptNeeded="false" type="id_String" value="SRVITADBAP1\ERPLN"/>
-      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:XUTrDiIFPpHMjv+iFMv/XHMtqcpvT8IOya9bQUxywqph6Vs9uajV9z5h"/>
+      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:zxlxuekdbPfsN2NjUM3rafDsTk3ZWT1ordhEn1cNdI4E8o82CKktSXaS"/>
       <contextParameter comment="" name="erp_database" prompt="erp_database?" promptNeeded="false" type="id_String" value="erplndb"/>
       <contextParameter comment="" name="erp_schema" prompt="erp_schema?" promptNeeded="false" type="id_String" value="dbo"/>
       <contextParameter comment="" name="erp_username" prompt="erp_username?" promptNeeded="false" type="id_String" value="DABQLIK"/>
@@ -172,7 +172,7 @@
       <contextParameter comment="" name="dwh_database" prompt="dwh_database?" promptNeeded="false" type="id_String" value="dwh_bi_talend"/>
       <contextParameter comment="" name="dwh_username" prompt="dwh_username?" promptNeeded="false" type="id_String" value="ict.bi_analytics"/>
       <contextParameter comment="" name="dwh_host" prompt="dwh_host?" promptNeeded="false" type="id_String" value="SRVITADWH01"/>
-      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:vg4kOVJC/1ehn4nMTuhwVMEhc1z4iP58C806qzl3ftaBf3EKZPg="/>
+      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:MN2nBBjarf7xX8XFTltQ15zdGh6GR/DUK19P++uJC1TV8xAQfnQ="/>
       <contextParameter comment="" name="COMP_DES" prompt="COMP_DES?" promptNeeded="false" type="id_String" value=""/>
       <contextParameter comment="" name="COMP_TYPE_DES" prompt="COMP_TYPE_DES?" promptNeeded="false" type="id_String" value=""/>
       <contextParameter comment="" name="COMP_TIME_ZONE_COD" prompt="COMP_TIME_ZONE_COD?" promptNeeded="false" type="id_String" value=""/>
@@ -185,7 +185,7 @@
       <contextParameter comment="" name="COMP_COD_FINANCIAL" prompt="COMP_COD_FINANCIAL?" promptNeeded="false" type="id_Integer" value=""/>
       <contextParameter comment="" name="COMP_COD_STD_COST" prompt="COMP_COD_STD_COST?" promptNeeded="false" type="id_String" value=""/>
       <contextParameter comment="" name="erp_host" prompt="erp_host?" promptNeeded="false" type="id_String" value="SRVITADBAP1\ERPLN"/>
-      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:MCePWXlgA83rTPa7iGCWbWYBLEvlPHYEoaWL534tDC4GB9IVRLR3UGwa"/>
+      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:saflDxwJeQsOXbLOLmYQJduORMle9HTmwGlp0dmCavOW8pMKWO5hyckY"/>
       <contextParameter comment="" name="erp_database" prompt="erp_database?" promptNeeded="false" type="id_String" value="erplndb"/>
       <contextParameter comment="" name="erp_schema" prompt="erp_schema?" promptNeeded="false" type="id_String" value="dbo"/>
       <contextParameter comment="" name="erp_username" prompt="erp_username?" promptNeeded="false" type="id_String" value="DABQLIK"/>
@@ -286,7 +286,7 @@
       <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:+NHxssDviS3MgVOZwEA0p6sunDFlrV5gE2Ft9o0Z"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:xEv+4jU01yaYCDXE0FNlb9SZnlWKipuWr3vsdHgL"/>
       <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -407,13 +407,13 @@
       <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
       <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value="tDBConnection_1"/>
       <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
-      <elementParameter field="TEXT" name="HOST" value="context.dwh_host"/>
+      <elementParameter field="TEXT" name="HOST" value="&quot;azeutalend.database.windows.net&quot;"/>
       <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-      <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;logs&quot;"/>
-      <elementParameter field="TEXT" name="DBNAME" value="context.dwh_database"/>
+      <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;temp&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME" value="&quot;DbGroupDW01&quot;"/>
       <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
-      <elementParameter field="TEXT" name="USER" value="context.dwh_username"/>
-      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uWRzD2uSpSN3HzPrIUSuAKf15iD1t0JgyUfrVIOuzMsn9h3YUpUxzBtsVT2gsZAw"/>
+      <elementParameter field="TEXT" name="USER" value="&quot;H_TalendEtl&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XNnrBu6qZTpPk0n8dv+/y44d2QVMIRVOhoXqhqZrYDzTWvum4uPy8ApywGlV7BY="/>
       <elementParameter field="DBTABLE" name="TABLE" value="&quot;LOG_DWH&quot;"/>
       <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
       <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -498,7 +498,7 @@
       <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;temp&quot;"/>
       <elementParameter field="TEXT" name="DBNAME" value="&quot;DbGroupDW01&quot;"/>
       <elementParameter field="TEXT" name="USER" value="&quot;H_TalendEtl&quot;"/>
-      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8VtIzTxImR9gc5K3NXGRojz3wJwhXddSndbP9p+VKHaYp/I7Yldib+i0bR2yWz0="/>
+      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NlYcytQtn7Ntgz2g4LAueu39NJcf8S906EsrKe+TOxf3SWPHRX7Nioy7V2PKtUc="/>
       <elementParameter field="DBTABLE" name="TABLE" value="&quot;LOG_ERRORS_TALEND&quot;"/>
       <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
       <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -568,13 +568,13 @@
     </subjob>
   </model:JobletProcess>
   <TalendProperties:ByteArray/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b30f04ba-d010-4a5c-8f4b-7aa0c72f0cf7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+RUyu0n6Vsa2siZhLmqlI9Tc1r4GjRGyLKUWiqekfruzDIs8K0ehPYJKshd5sluxSEir7tN9Q0O2
-rqvHtPWVdw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bce79fcf-4ae7-4647-a365-26195f707e27"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LI28+Wimix4oQyVa678vzL9hOPyeykwty+DW2JLMcNjJrkIX/6p3yj9tRr2OQx7IhuufMTemBYAw
-gJyoWEEN6g==</DigestValue></Reference></SignedInfo><SignatureValue>NAbuupBOjupm8XSQYSRHDFRIBzLEOX2OEybYh97rzr0XWnX+xMHqC/LxXs2rHFBjPkXpF4i8P5p/
-yTC8x3r9y9rr5Bibl7B8p44wN5+Am4uH1NAGTm4lyo8xj8wTwsltQ3Ps7fNuX9QSysN4xVwDKS//
-EE2iNJVND7uenaSqaOHYJI3iZMtppev9rHzYqhzExeX+SpSykjSkx6X4Sq6zCxuQkHwGYHBAOb08
-oAC6Rl8QvumiahZ8+AlFuD5uZuGOZiMKKPKKJFNPLKwVC/eqTApkq2JVhSeAixfcJe9rYZ2TU45V
-KCCsrJw1RgaTpPsaIn3TMM012OCkD5yNa+/fgw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_74349773-9085-4fc6-ab06-64f5b5290477"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JUvtVH3nzg+Qmyim6SM2/CIdPk29Oa/25zrXve0NDpz8/fUAHUjtKvE++fdLudjmOAx+1cixqFwc
+6f1kO5WcKQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4f3092e2-411a-4295-add3-7e903019392b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>U7CO45ACdI6qRKu1BCkSeqvP5uLOp6zHXy/gUPsRuzjb2c/DHeZ0OjoCID82D3XwaqTBXTQMAtqC
+gRY846Lt4A==</DigestValue></Reference></SignedInfo><SignatureValue>Be4kIEONZxOLV4PU2mZ0bRk3Snv28X7Hxs79X7Q65tHkh4BMvwSWSuQf8olXEXZj70jZB07joje+
+dmV3kQkl9LCYeoqxZvSQPRr1oyKrpko17ZPbEvoWXq218YN6WuaPM/Sy127zsElCPzVQjsynTcBn
+BGgdLOMwnuLjgGk9uJHUgeGHTmrU4VhL4VvTLC6fJbFx/Ph+Itzo2OQvbN9UNhlxCOja+N7t3chg
+A885BHRz9YWMoz0OyVkjFtd8jYtixnJNXFK/mpriF6oQJbPC9zLB3y/dASIZ20bn/8F/oRhpMYCq
+7lrVdRuVgoPAoWLhLSL28xRSkbHyf/OhtnAA/A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -596,4 +596,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bce79fcf-4ae7-4647-a365-26195f707e27" Target="#_b30f04ba-d010-4a5c-8f4b-7aa0c72f0cf7"><Timestamp>2021-02-09 13:41:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4f3092e2-411a-4295-add3-7e903019392b" Target="#_74349773-9085-4fc6-ab06-64f5b5290477"><Timestamp>2021-02-09 13:42:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
