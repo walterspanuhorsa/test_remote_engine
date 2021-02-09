@@ -1,6 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="query_create" prompt="query_create?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="key_column" prompt="key_column?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="constraint_value" prompt="constraint_value?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="flag_scd" prompt="flag_scd?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="tag" prompt="tag?" promptNeeded="false" type="id_String" value="where tag in ('sales')"/>
+    <contextParameter comment="" name="query_update" prompt="query_update?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="query_insert" prompt="query_insert?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="query_where" prompt="query_where?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="field_list" prompt="field_list?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="query_join" prompt="query_join?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="query_select" prompt="query_select?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="DATE_WORKING_COUNT" prompt="DATE_WORKING_COUNT?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="cod_nv" prompt="cod_nv?" promptNeeded="false" type="id_String" value="NV"/>
+    <contextParameter comment="" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" type="id_String" value="Not Value"/>
+    <contextParameter comment="" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" type="id_String" value="Not Value"/>
+    <contextParameter comment="" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" type="id_String" value="NV"/>
+    <contextParameter comment="" name="start_date" prompt="start_date?" promptNeeded="false" repositoryContextId="_2WQ-4IVoEeqlG_9eLBZ6HA" type="id_Date" value=""/>
+    <contextParameter comment="" name="diff_date" prompt="diff_date?" promptNeeded="false" type="id_Long" value=""/>
+    <contextParameter comment="" name="alias" prompt="alias?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_ext" prompt="table_ext?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="external_tables_path" prompt="external_tables_path?" promptNeeded="false" type="id_String" value="/mnt/srvitadwh01"/>
+    <contextParameter comment="" name="file_path" prompt="file_path?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="load_parameter" prompt="load_parameter?" promptNeeded="false" type="id_String" value="fact"/>
+    <contextParameter comment="" name="YearDepthSup" prompt="YearDepthSup?" promptNeeded="false" type="id_String" value="1"/>
+    <contextParameter comment="" name="YearDepthInf" prompt="YearDepthInf?" promptNeeded="false" type="id_String" value="-1"/>
+    <contextParameter comment="" name="query_delete" prompt="query_delete?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="loop" prompt="loop?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="query_insert_frwd" prompt="query_insert_frwd?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="maxYear" prompt="maxYear?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="finalYear" prompt="finalYear?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="query_insert_bck" prompt="query_insert_bck?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="startYear" prompt="startYear?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="minYear" prompt="minYear?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="layer" prompt="layer?" promptNeeded="false" type="id_String" value="1, 2"/>
+    <contextParameter comment="" name="load_year" prompt="load_year?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="status" prompt="status?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="filter" prompt="filter?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="email_to" prompt="email_to?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="fcst_user_cod" prompt="fcst_user_cod?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="fcst_year" prompt="fcst_year?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="fcst_month" prompt="fcst_month?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="fcst_ext_tbl_path" prompt="fcst_ext_tbl_path?" promptNeeded="false" type="id_String" value="//srvitadwh01/DWH_Project/External_Tables/FORECAST"/>
+    <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_prefix" prompt="table_prefix?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="dwh_schema" prompt="dwh_schema?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="dwh_database" prompt="dwh_database?" promptNeeded="false" type="id_String" value="dwh_bi_talend"/>
+    <contextParameter comment="" name="dwh_username" prompt="dwh_username?" promptNeeded="false" type="id_String" value="ict.bi_analytics"/>
+    <contextParameter comment="" name="dwh_host" prompt="dwh_host?" promptNeeded="false" type="id_String" value="SRVITADWH01"/>
+    <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:myT35MiN6SijLzMoIbTDYXe48AfiL+CuCC+71T/GzQEWGA1zBPY="/>
+    <contextParameter comment="" name="COMP_DES" prompt="COMP_DES?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="COMP_TYPE_DES" prompt="COMP_TYPE_DES?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="COMP_TIME_ZONE_COD" prompt="COMP_TIME_ZONE_COD?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="COMP_CURR_COD" prompt="COMP_CURR_COD?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="COMP_CURRENCY_COD" prompt="COMP_CURRENCY_COD?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="COMP_SHARED" prompt="COMP_SHARED?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="COMP_COD" prompt="COMP_COD?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="COMP_TYPE_COD" prompt="COMP_TYPE_COD?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="COMP_READ" prompt="COMP_READ?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="COMP_COD_FINANCIAL" prompt="COMP_COD_FINANCIAL?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="COMP_COD_STD_COST" prompt="COMP_COD_STD_COST?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="erp_host" prompt="erp_host?" promptNeeded="false" type="id_String" value="SRVITADBAP1\ERPLN"/>
+    <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Aaji56Z3nk1nFOTgweCWtAEZPuGoYO9s3c6KJhqf3IWloEjPnDGHWm+j"/>
+    <contextParameter comment="" name="erp_database" prompt="erp_database?" promptNeeded="false" type="id_String" value="erplndb"/>
+    <contextParameter comment="" name="erp_schema" prompt="erp_schema?" promptNeeded="false" type="id_String" value="dbo"/>
+    <contextParameter comment="" name="erp_username" prompt="erp_username?" promptNeeded="false" type="id_String" value="DABQLIK"/>
+    <contextParameter comment="" name="table_b1" prompt="table_b1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_w1" prompt="table_w1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_s1" prompt="table_s1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_o1" prompt="table_o1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_k1" prompt="table_k1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_g1" prompt="table_g1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_c1" prompt="table_c1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_a1" prompt="table_a1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_z1" prompt="table_z1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_v1" prompt="table_v1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_q" prompt="table_q?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_r1" prompt="table_r1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_r" prompt="table_r?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_s" prompt="table_s?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_t" prompt="table_t?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_u" prompt="table_u?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_n1" prompt="table_n1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_v" prompt="table_v?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_w" prompt="table_w?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_x" prompt="table_x?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_y" prompt="table_y?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_j1" prompt="table_j1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_z" prompt="table_z?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_f1" prompt="table_f1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_a" prompt="table_a?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_b" prompt="table_b?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_c" prompt="table_c?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_d" prompt="table_d?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_e" prompt="table_e?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_f" prompt="table_f?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_g" prompt="table_g?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_h" prompt="table_h?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_i" prompt="table_i?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_j" prompt="table_j?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_y1" prompt="table_y1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_k" prompt="table_k?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_l" prompt="table_l?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_m" prompt="table_m?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_n" prompt="table_n?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_u1" prompt="table_u1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_o" prompt="table_o?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_p" prompt="table_p?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_q1" prompt="table_q1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_m1" prompt="table_m1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_i1" prompt="table_i1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_e1" prompt="table_e1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_x1" prompt="table_x1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_t1" prompt="table_t1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_p1" prompt="table_p1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_l1" prompt="table_l1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_h1" prompt="table_h1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="table_d1" prompt="table_d1?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="environment" prompt="environment?" promptNeeded="false" repositoryContextId="_U9tuoGbcEeubr4k7RyZReg" type="id_String" value=""/>
+    <contextParameter comment="" name="library" prompt="library?" promptNeeded="false" repositoryContextId="_U9tuoGbcEeubr4k7RyZReg" type="id_String" value=""/>
+    <contextParameter comment="" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="_U9tuoGbcEeubr4k7RyZReg" type="id_String" value=""/>
+  </context>
   <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -40,7 +165,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:0iHTiokjYcS/nd/1gJ4MCU1iH/3snmHZRDdgLisb"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:zRivdRwQbAzjAxMe8gTtnHT8L8GRO3/3Z8ux1nnV"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +202,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;temp&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;H_TalendEtl&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XeU5FQWfcmKR2dJP7gHABMBxDcgqgjOX/neT5KzmtvRp2y+ypLc36L282IhETF8="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zwQ8vnkFfbpu5h3YcwlLfiXECEhy5P+vR9hk7MvLPAnA53GJrkNzdXnUMpj/+4w="/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;LOG_STATS_TALEND&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;LOG_ERRORS_TALEND&quot;"/>
@@ -112,13 +237,103 @@
     <routinesParameter id="_DEJ-EGYWEeuH-PHPvJtAVQ" name="TalendStringUtil"/>
     <routinesParameter id="_DD9w0GYWEeuH-PHPvJtAVQ" name="TalendString"/>
   </parameters>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_875bc540-c3ce-4e77-bba6-6428da4eb4ff"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>06YTWQA5D9gn426tDNwhxL3O4r9Sqwlec9b3UfxdnSMNu2QZSWxvEPGk0hkd3Wxp6NbZuHgvmseM
-foNbAHblBg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_468233dc-ef4e-46fa-ba77-6c498a3e3482"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Y+NIAwD1MSZAKu41gMNYGRyYt+TDXKPhI8ZI98s2MGbedu/SB0EOgl+xKAMtcDlfS0wAp1Bkdfnu
-4KMhgtCY8Q==</DigestValue></Reference></SignedInfo><SignatureValue>pNmjo8zlzSvK9P0shg9bGez0DTfQdumGDW0HnljKnv9wau1qF5V6BSnI/229cmZC5sl/YGcUygPD
-noQwXcit0mG0mEDmZUPs9PIy0+Frd10D2YnJtivr55ocO5eB5X6YR/qk8+IxxD56m3BYj/XZYh9S
-U56Y6H4bWMtGQwsgOlt8hmwz6Voxh1R+h+1cK0Qr62QHyTarbf4z6s/R1rd0QnerGu5Om0QVNL/8
-iCZs0wDJmEUpTnWJnaVeZkn5+kFMDu/rwXhMG+Lq36yX6sgWz5GBbItCLnvzXhHZXNjcgeb6vxmy
-alyITVoOQYy9bSyHRiD36ADRFvNvgovgcRPymQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+  <node componentName="log_start" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="log_start_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="log_start"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="log_error" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="128" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="log_error_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="log_error"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="log_end" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="log_end_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value=""/>
+    <elementParameter field="TEXT" name="LABEL" value="log_end"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="test_caricamento_UUB1REP_no_schema_dinamico_ridotto_23_campi"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="TALEND_TEST_RE:_FrbrgGq6EeuXPuesrbrLxQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnComponentOk (TRIGGER_OUTPUT_1)" lineStyle="3" metaname="log_start_1" offsetLabelX="0" offsetLabelY="0" source="log_start_1" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="log_start_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="log_error_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="log_end_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_75ce6a5d-5490-4c53-8950-15f11b7a7d2c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>njXsANBcGOmLgMUlkJgJ8YYbKyhC6bnnPM4ttJ9g5XbdRHcvVdQW+r4/xncMo8joTwhZrDsIO1oF
+y/VB3sY3bQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_126fa175-657a-4a12-8851-bf132a06f9dd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eKheDPsEmLVJnDeeUhvo/7b4B8QpZiYH8vpNzc7Aj4YCsSd9MZn1jr1FvtTgGRRUIzelkFYOxR5Z
+fD79JjGV2Q==</DigestValue></Reference></SignedInfo><SignatureValue>jIyBClnlu+XQpCrJpe0Gu5o8RXpRA69hJCnjsIAwJsV2b/26b5Mx4d1mdOwFFiK0SEAF8BN0Px9h
+ApOf9pzbom1PCcEc80qUzFEB50w+D9s019f67H09tFZPvT/aVgsXRaqcqSrFwpiY/X/vx4CARfsN
+Sjy3aJkdrHVMZVQjbzuy8BYWP/HAtbDQPHpw1FYK+cM2KYmuwlbZjYXqDWWy70auUfxV01ZetGXJ
+zYkO069e4lN3Zg9dDS0cD0oDyho5grn25PiHFcgvaBMPgc8JqCbVWd9CDeDr87tLodh8wI3gbC8Z
+DFYkZ0d7Yl0SWW4gewRPcOjKHq5HP7pDPPLCKQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -140,4 +355,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_468233dc-ef4e-46fa-ba77-6c498a3e3482" Target="#_875bc540-c3ce-4e77-bba6-6428da4eb4ff"><Timestamp>2021-02-09 13:43:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_126fa175-657a-4a12-8851-bf132a06f9dd" Target="#_75ce6a5d-5490-4c53-8950-15f11b7a7d2c"><Timestamp>2021-02-09 13:51:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

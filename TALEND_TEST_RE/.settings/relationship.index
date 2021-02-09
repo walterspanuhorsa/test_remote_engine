@@ -442,6 +442,101 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_znQmgGrcEeum4oqPFD5G9g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_2WQ-4IVoEeqlG_9eLBZ6HA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_U9tuoGbcEeubr4k7RyZReg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "TALEND_TEST_RE:_FrbrgGq6EeuXPuesrbrLxQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_2WQ-4IVoEeqlG_9eLBZ6HA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_Uy3gsIVoEeqlG_9eLBZ6HA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_gtaAEIVoEeqlG_9eLBZ6HA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_SopLMGYMEeu7CYg_M6tNYg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_2WQ-4IVoEeqlG_9eLBZ6HA",
     "version" : "0.1",
     "type" : "joblet"
