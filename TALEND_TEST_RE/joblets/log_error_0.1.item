@@ -1,246 +1,246 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
   <model:JobletProcess defaultContext="PRD" jobType="Standard">
     <context confirmationNeeded="false" name="PRD">
-      <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_create" prompt="query_create?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="key_column" prompt="key_column?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="constraint_value" prompt="constraint_value?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="flag_scd" prompt="flag_scd?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="tag" prompt="tag?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="where tag in ('sales')"/>
-      <contextParameter comment="" name="query_update" prompt="query_update?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_insert" prompt="query_insert?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_where" prompt="query_where?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="field_list" prompt="field_list?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_join" prompt="query_join?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_select" prompt="query_select?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="DATE_WORKING_COUNT" prompt="DATE_WORKING_COUNT?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="cod_nv" prompt="cod_nv?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="NV"/>
-      <contextParameter comment="" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="Not Value"/>
-      <contextParameter comment="" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value="0"/>
-      <contextParameter comment="" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="Not Value"/>
-      <contextParameter comment="" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="NV"/>
-      <contextParameter comment="" name="start_date" prompt="start_date?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Date" value=""/>
-      <contextParameter comment="" name="diff_date" prompt="diff_date?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Long" value=""/>
-      <contextParameter comment="" name="alias" prompt="alias?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="table_ext" prompt="table_ext?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="external_tables_path" prompt="external_tables_path?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="/mnt/srvitadwh01"/>
-      <contextParameter comment="" name="file_path" prompt="file_path?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="load_parameter" prompt="load_parameter?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="fact"/>
-      <contextParameter comment="" name="YearDepthSup" prompt="YearDepthSup?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="1"/>
-      <contextParameter comment="" name="YearDepthInf" prompt="YearDepthInf?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="-1"/>
-      <contextParameter comment="" name="query_delete" prompt="query_delete?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="loop" prompt="loop?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value="0"/>
-      <contextParameter comment="" name="query_insert_frwd" prompt="query_insert_frwd?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="maxYear" prompt="maxYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="finalYear" prompt="finalYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="query_insert_bck" prompt="query_insert_bck?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="startYear" prompt="startYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="minYear" prompt="minYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="layer" prompt="layer?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="1, 2"/>
-      <contextParameter comment="" name="load_year" prompt="load_year?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="status" prompt="status?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="filter" prompt="filter?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="email_to" prompt="email_to?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="fcst_user_cod" prompt="fcst_user_cod?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="fcst_year" prompt="fcst_year?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="fcst_month" prompt="fcst_month?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="fcst_ext_tbl_path" prompt="fcst_ext_tbl_path?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="//srvitadwh01/DWH_Project/External_Tables/FORECAST"/>
-      <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="table_prefix" prompt="table_prefix?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="dwh_schema" prompt="dwh_schema?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="dwh_database" prompt="dwh_database?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value="dwh_bi_talend"/>
-      <contextParameter comment="" name="dwh_username" prompt="dwh_username?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value="ict.bi_analytics"/>
-      <contextParameter comment="" name="dwh_host" prompt="dwh_host?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value="SRVITADWH01"/>
-      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_Password" value="enc:system.encryption.key.v1:r+zKPPo+/7EDn1A/WFLySsfxsGPYZre5en+oWixiTRu0i8m2rPY="/>
-      <contextParameter comment="" name="COMP_DES" prompt="COMP_DES?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_TYPE_DES" prompt="COMP_TYPE_DES?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_TIME_ZONE_COD" prompt="COMP_TIME_ZONE_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_CURR_COD" prompt="COMP_CURR_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_CURRENCY_COD" prompt="COMP_CURRENCY_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_SHARED" prompt="COMP_SHARED?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_COD" prompt="COMP_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_TYPE_COD" prompt="COMP_TYPE_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_READ" prompt="COMP_READ?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_COD_FINANCIAL" prompt="COMP_COD_FINANCIAL?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_COD_STD_COST" prompt="COMP_COD_STD_COST?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="erp_host" prompt="erp_host?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="SRVITADBAP1\ERPLN"/>
-      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_Password" value="enc:system.encryption.key.v1:cqA+s3LY1Ou4FMaLiBu3jpZdkEpMa5o3g33NveuzeMtPp7qIjA93fCiP"/>
-      <contextParameter comment="" name="erp_database" prompt="erp_database?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="erplndb"/>
-      <contextParameter comment="" name="erp_schema" prompt="erp_schema?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="dbo"/>
-      <contextParameter comment="" name="erp_username" prompt="erp_username?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="DABQLIK"/>
-      <contextParameter comment="" name="table_b1" prompt="table_b1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_w1" prompt="table_w1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_s1" prompt="table_s1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_o1" prompt="table_o1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_k1" prompt="table_k1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_g1" prompt="table_g1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_c1" prompt="table_c1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_a1" prompt="table_a1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_z1" prompt="table_z1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_v1" prompt="table_v1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_q" prompt="table_q?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_r1" prompt="table_r1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_r" prompt="table_r?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_s" prompt="table_s?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_t" prompt="table_t?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_u" prompt="table_u?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_n1" prompt="table_n1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_v" prompt="table_v?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_w" prompt="table_w?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_x" prompt="table_x?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_y" prompt="table_y?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_j1" prompt="table_j1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_z" prompt="table_z?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_f1" prompt="table_f1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_a" prompt="table_a?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_b" prompt="table_b?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_c" prompt="table_c?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_d" prompt="table_d?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_e" prompt="table_e?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_f" prompt="table_f?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_g" prompt="table_g?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_h" prompt="table_h?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_i" prompt="table_i?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_j" prompt="table_j?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_y1" prompt="table_y1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_k" prompt="table_k?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_l" prompt="table_l?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_m" prompt="table_m?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_n" prompt="table_n?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_u1" prompt="table_u1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_o" prompt="table_o?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_p" prompt="table_p?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_q1" prompt="table_q1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_m1" prompt="table_m1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_i1" prompt="table_i1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_e1" prompt="table_e1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_x1" prompt="table_x1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_t1" prompt="table_t1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_p1" prompt="table_p1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_l1" prompt="table_l1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_h1" prompt="table_h1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_d1" prompt="table_d1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
+      <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_create" prompt="query_create?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="key_column" prompt="key_column?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="constraint_value" prompt="constraint_value?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="flag_scd" prompt="flag_scd?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="tag" prompt="tag?" promptNeeded="false" type="id_String" value="where tag in ('sales')"/>
+      <contextParameter comment="" name="query_update" prompt="query_update?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_insert" prompt="query_insert?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_where" prompt="query_where?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="field_list" prompt="field_list?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_join" prompt="query_join?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_select" prompt="query_select?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="DATE_WORKING_COUNT" prompt="DATE_WORKING_COUNT?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="cod_nv" prompt="cod_nv?" promptNeeded="false" type="id_String" value="NV"/>
+      <contextParameter comment="" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" type="id_String" value="Not Value"/>
+      <contextParameter comment="" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" type="id_Integer" value="0"/>
+      <contextParameter comment="" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" type="id_String" value="Not Value"/>
+      <contextParameter comment="" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" type="id_String" value="NV"/>
+      <contextParameter comment="" name="start_date" prompt="start_date?" promptNeeded="false" type="id_Date" value=""/>
+      <contextParameter comment="" name="diff_date" prompt="diff_date?" promptNeeded="false" type="id_Long" value=""/>
+      <contextParameter comment="" name="alias" prompt="alias?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_ext" prompt="table_ext?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="external_tables_path" prompt="external_tables_path?" promptNeeded="false" type="id_String" value="/mnt/srvitadwh01"/>
+      <contextParameter comment="" name="file_path" prompt="file_path?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="load_parameter" prompt="load_parameter?" promptNeeded="false" type="id_String" value="fact"/>
+      <contextParameter comment="" name="YearDepthSup" prompt="YearDepthSup?" promptNeeded="false" type="id_String" value="1"/>
+      <contextParameter comment="" name="YearDepthInf" prompt="YearDepthInf?" promptNeeded="false" type="id_String" value="-1"/>
+      <contextParameter comment="" name="query_delete" prompt="query_delete?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="loop" prompt="loop?" promptNeeded="false" type="id_Integer" value="0"/>
+      <contextParameter comment="" name="query_insert_frwd" prompt="query_insert_frwd?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="maxYear" prompt="maxYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="finalYear" prompt="finalYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="query_insert_bck" prompt="query_insert_bck?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="startYear" prompt="startYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="minYear" prompt="minYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="layer" prompt="layer?" promptNeeded="false" type="id_String" value="1, 2"/>
+      <contextParameter comment="" name="load_year" prompt="load_year?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="status" prompt="status?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="filter" prompt="filter?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="email_to" prompt="email_to?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="fcst_user_cod" prompt="fcst_user_cod?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="fcst_year" prompt="fcst_year?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="fcst_month" prompt="fcst_month?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="fcst_ext_tbl_path" prompt="fcst_ext_tbl_path?" promptNeeded="false" type="id_String" value="//srvitadwh01/DWH_Project/External_Tables/FORECAST"/>
+      <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_prefix" prompt="table_prefix?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="dwh_schema" prompt="dwh_schema?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="dwh_database" prompt="dwh_database?" promptNeeded="false" type="id_String" value="dwh_bi_talend"/>
+      <contextParameter comment="" name="dwh_username" prompt="dwh_username?" promptNeeded="false" type="id_String" value="ict.bi_analytics"/>
+      <contextParameter comment="" name="dwh_host" prompt="dwh_host?" promptNeeded="false" type="id_String" value="SRVITADWH01"/>
+      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:YX5lLVvZuwRV2M37DyrtKjSiHma0HAyYIR+eXsd46RDmIG0/M+w="/>
+      <contextParameter comment="" name="COMP_DES" prompt="COMP_DES?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_TYPE_DES" prompt="COMP_TYPE_DES?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_TIME_ZONE_COD" prompt="COMP_TIME_ZONE_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_CURR_COD" prompt="COMP_CURR_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_CURRENCY_COD" prompt="COMP_CURRENCY_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_SHARED" prompt="COMP_SHARED?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_COD" prompt="COMP_COD?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_TYPE_COD" prompt="COMP_TYPE_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_READ" prompt="COMP_READ?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_COD_FINANCIAL" prompt="COMP_COD_FINANCIAL?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_COD_STD_COST" prompt="COMP_COD_STD_COST?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="erp_host" prompt="erp_host?" promptNeeded="false" type="id_String" value="SRVITADBAP1\ERPLN"/>
+      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:XUTrDiIFPpHMjv+iFMv/XHMtqcpvT8IOya9bQUxywqph6Vs9uajV9z5h"/>
+      <contextParameter comment="" name="erp_database" prompt="erp_database?" promptNeeded="false" type="id_String" value="erplndb"/>
+      <contextParameter comment="" name="erp_schema" prompt="erp_schema?" promptNeeded="false" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="erp_username" prompt="erp_username?" promptNeeded="false" type="id_String" value="DABQLIK"/>
+      <contextParameter comment="" name="table_b1" prompt="table_b1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_w1" prompt="table_w1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_s1" prompt="table_s1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_o1" prompt="table_o1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_k1" prompt="table_k1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_g1" prompt="table_g1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_c1" prompt="table_c1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_a1" prompt="table_a1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_z1" prompt="table_z1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_v1" prompt="table_v1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_q" prompt="table_q?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_r1" prompt="table_r1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_r" prompt="table_r?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_s" prompt="table_s?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_t" prompt="table_t?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_u" prompt="table_u?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_n1" prompt="table_n1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_v" prompt="table_v?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_w" prompt="table_w?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_x" prompt="table_x?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_y" prompt="table_y?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_j1" prompt="table_j1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_z" prompt="table_z?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_f1" prompt="table_f1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_a" prompt="table_a?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_b" prompt="table_b?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_c" prompt="table_c?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_d" prompt="table_d?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_e" prompt="table_e?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_f" prompt="table_f?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_g" prompt="table_g?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_h" prompt="table_h?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_i" prompt="table_i?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_j" prompt="table_j?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_y1" prompt="table_y1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_k" prompt="table_k?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_l" prompt="table_l?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_m" prompt="table_m?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_n" prompt="table_n?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_u1" prompt="table_u1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_o" prompt="table_o?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_p" prompt="table_p?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_q1" prompt="table_q1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_m1" prompt="table_m1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_i1" prompt="table_i1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_e1" prompt="table_e1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_x1" prompt="table_x1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_t1" prompt="table_t1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_p1" prompt="table_p1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_l1" prompt="table_l1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_h1" prompt="table_h1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_d1" prompt="table_d1?" promptNeeded="false" type="id_String" value=""/>
     </context>
     <context confirmationNeeded="false" name="DEV">
-      <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_create" prompt="query_create?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="key_column" prompt="key_column?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="constraint_value" prompt="constraint_value?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="flag_scd" prompt="flag_scd?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="tag" prompt="tag?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="where tag in ('customer')"/>
-      <contextParameter comment="" name="query_update" prompt="query_update?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_insert" prompt="query_insert?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_where" prompt="query_where?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="field_list" prompt="field_list?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_join" prompt="query_join?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="query_select" prompt="query_select?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="DATE_WORKING_COUNT" prompt="DATE_WORKING_COUNT?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="cod_nv" prompt="cod_nv?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="NV"/>
-      <contextParameter comment="" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="Not Value"/>
-      <contextParameter comment="" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value="0"/>
-      <contextParameter comment="" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="Not Value"/>
-      <contextParameter comment="" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="NV"/>
-      <contextParameter comment="" name="start_date" prompt="start_date?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Date" value=""/>
-      <contextParameter comment="" name="diff_date" prompt="diff_date?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Long" value=""/>
-      <contextParameter comment="" name="alias" prompt="alias?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="table_ext" prompt="table_ext?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="external_tables_path" prompt="external_tables_path?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="/mnt/srvitadwh01"/>
-      <contextParameter comment="" name="file_path" prompt="file_path?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="load_parameter" prompt="load_parameter?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="fact"/>
-      <contextParameter comment="" name="YearDepthSup" prompt="YearDepthSup?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="1"/>
-      <contextParameter comment="" name="YearDepthInf" prompt="YearDepthInf?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="-1"/>
-      <contextParameter comment="" name="query_delete" prompt="query_delete?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="loop" prompt="loop?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value="0"/>
-      <contextParameter comment="" name="query_insert_frwd" prompt="query_insert_frwd?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="maxYear" prompt="maxYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="finalYear" prompt="finalYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="query_insert_bck" prompt="query_insert_bck?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="startYear" prompt="startYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="minYear" prompt="minYear?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="layer" prompt="layer?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="1, 2"/>
-      <contextParameter comment="" name="load_year" prompt="load_year?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="status" prompt="status?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="filter" prompt="filter?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="email_to" prompt="email_to?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="fcst_user_cod" prompt="fcst_user_cod?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="fcst_year" prompt="fcst_year?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="fcst_month" prompt="fcst_month?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_Integer" value=""/>
-      <contextParameter comment="" name="fcst_ext_tbl_path" prompt="fcst_ext_tbl_path?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value="//srvitadwh01/DWH_Project/External_Tables/FORECAST"/>
-      <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="table_prefix" prompt="table_prefix?" promptNeeded="false" repositoryContextId="_UpWVQFfqEeqv3J8yVUTkcg" type="id_String" value=""/>
-      <contextParameter comment="" name="dwh_schema" prompt="dwh_schema?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="dwh_database" prompt="dwh_database?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value="dwh_bi_talend"/>
-      <contextParameter comment="" name="dwh_username" prompt="dwh_username?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value="ict.bi_analytics"/>
-      <contextParameter comment="" name="dwh_host" prompt="dwh_host?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_String" value="SRVITADWH01"/>
-      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" repositoryContextId="_z6P6EFeiEeqw6NXAb0k9tw" type="id_Password" value="enc:system.encryption.key.v1:plhWv40ZmzLc6kBqeiVHadF7AZ7E+CtjYGkB/wRhplc1z2OWBYk="/>
-      <contextParameter comment="" name="COMP_DES" prompt="COMP_DES?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_TYPE_DES" prompt="COMP_TYPE_DES?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_TIME_ZONE_COD" prompt="COMP_TIME_ZONE_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_CURR_COD" prompt="COMP_CURR_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_CURRENCY_COD" prompt="COMP_CURRENCY_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_SHARED" prompt="COMP_SHARED?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_COD" prompt="COMP_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_TYPE_COD" prompt="COMP_TYPE_COD?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="COMP_READ" prompt="COMP_READ?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_COD_FINANCIAL" prompt="COMP_COD_FINANCIAL?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_Integer" value=""/>
-      <contextParameter comment="" name="COMP_COD_STD_COST" prompt="COMP_COD_STD_COST?" promptNeeded="false" repositoryContextId="_tJKioFe0Eeqw6NXAb0k9tw" type="id_String" value=""/>
-      <contextParameter comment="" name="erp_host" prompt="erp_host?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="SRVITADBAP1\ERPLN"/>
-      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_Password" value="enc:system.encryption.key.v1:tGtIHNp+u+hDnBMXCD2HEGhtLkqvxvW71/SfXOsi6Mdpgpi9Wtlml5lM"/>
-      <contextParameter comment="" name="erp_database" prompt="erp_database?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="erplndb"/>
-      <contextParameter comment="" name="erp_schema" prompt="erp_schema?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="dbo"/>
-      <contextParameter comment="" name="erp_username" prompt="erp_username?" promptNeeded="false" repositoryContextId="_4xlvkFe6Eeqw6NXAb0k9tw" type="id_String" value="DABQLIK"/>
-      <contextParameter comment="" name="table_b1" prompt="table_b1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_w1" prompt="table_w1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_s1" prompt="table_s1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_o1" prompt="table_o1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_k1" prompt="table_k1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_g1" prompt="table_g1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_c1" prompt="table_c1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_a1" prompt="table_a1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_z1" prompt="table_z1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_v1" prompt="table_v1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_q" prompt="table_q?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_r1" prompt="table_r1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_r" prompt="table_r?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_s" prompt="table_s?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_t" prompt="table_t?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_u" prompt="table_u?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_n1" prompt="table_n1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_v" prompt="table_v?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_w" prompt="table_w?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_x" prompt="table_x?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_y" prompt="table_y?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_j1" prompt="table_j1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_z" prompt="table_z?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_f1" prompt="table_f1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_a" prompt="table_a?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_b" prompt="table_b?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_c" prompt="table_c?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_d" prompt="table_d?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_e" prompt="table_e?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_f" prompt="table_f?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_g" prompt="table_g?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_h" prompt="table_h?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_i" prompt="table_i?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_j" prompt="table_j?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_y1" prompt="table_y1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_k" prompt="table_k?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_l" prompt="table_l?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_m" prompt="table_m?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_n" prompt="table_n?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_u1" prompt="table_u1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_o" prompt="table_o?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_p" prompt="table_p?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_q1" prompt="table_q1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_m1" prompt="table_m1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_i1" prompt="table_i1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_e1" prompt="table_e1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_x1" prompt="table_x1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_t1" prompt="table_t1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_p1" prompt="table_p1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_l1" prompt="table_l1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_h1" prompt="table_h1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
-      <contextParameter comment="" name="table_d1" prompt="table_d1?" promptNeeded="false" repositoryContextId="_oEPCYHNOEeqfsKEWg35oNQ" type="id_String" value=""/>
+      <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_create" prompt="query_create?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="key_column" prompt="key_column?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="constraint_value" prompt="constraint_value?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="flag_scd" prompt="flag_scd?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="tag" prompt="tag?" promptNeeded="false" type="id_String" value="where tag in ('customer')"/>
+      <contextParameter comment="" name="query_update" prompt="query_update?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_insert" prompt="query_insert?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_where" prompt="query_where?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="field_list" prompt="field_list?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_join" prompt="query_join?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="query_select" prompt="query_select?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="DATE_WORKING_COUNT" prompt="DATE_WORKING_COUNT?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="cod_nv" prompt="cod_nv?" promptNeeded="false" type="id_String" value="NV"/>
+      <contextParameter comment="" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" type="id_String" value="Not Value"/>
+      <contextParameter comment="" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" type="id_Integer" value="0"/>
+      <contextParameter comment="" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" type="id_String" value="Not Value"/>
+      <contextParameter comment="" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" type="id_String" value="NV"/>
+      <contextParameter comment="" name="start_date" prompt="start_date?" promptNeeded="false" type="id_Date" value=""/>
+      <contextParameter comment="" name="diff_date" prompt="diff_date?" promptNeeded="false" type="id_Long" value=""/>
+      <contextParameter comment="" name="alias" prompt="alias?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_ext" prompt="table_ext?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="external_tables_path" prompt="external_tables_path?" promptNeeded="false" type="id_String" value="/mnt/srvitadwh01"/>
+      <contextParameter comment="" name="file_path" prompt="file_path?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="load_parameter" prompt="load_parameter?" promptNeeded="false" type="id_String" value="fact"/>
+      <contextParameter comment="" name="YearDepthSup" prompt="YearDepthSup?" promptNeeded="false" type="id_String" value="1"/>
+      <contextParameter comment="" name="YearDepthInf" prompt="YearDepthInf?" promptNeeded="false" type="id_String" value="-1"/>
+      <contextParameter comment="" name="query_delete" prompt="query_delete?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="loop" prompt="loop?" promptNeeded="false" type="id_Integer" value="0"/>
+      <contextParameter comment="" name="query_insert_frwd" prompt="query_insert_frwd?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="maxYear" prompt="maxYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="finalYear" prompt="finalYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="query_insert_bck" prompt="query_insert_bck?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="startYear" prompt="startYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="minYear" prompt="minYear?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="layer" prompt="layer?" promptNeeded="false" type="id_String" value="1, 2"/>
+      <contextParameter comment="" name="load_year" prompt="load_year?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="status" prompt="status?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="filter" prompt="filter?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="email_to" prompt="email_to?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="fcst_user_cod" prompt="fcst_user_cod?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="fcst_year" prompt="fcst_year?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="fcst_month" prompt="fcst_month?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="fcst_ext_tbl_path" prompt="fcst_ext_tbl_path?" promptNeeded="false" type="id_String" value="//srvitadwh01/DWH_Project/External_Tables/FORECAST"/>
+      <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_prefix" prompt="table_prefix?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="dwh_schema" prompt="dwh_schema?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="dwh_database" prompt="dwh_database?" promptNeeded="false" type="id_String" value="dwh_bi_talend"/>
+      <contextParameter comment="" name="dwh_username" prompt="dwh_username?" promptNeeded="false" type="id_String" value="ict.bi_analytics"/>
+      <contextParameter comment="" name="dwh_host" prompt="dwh_host?" promptNeeded="false" type="id_String" value="SRVITADWH01"/>
+      <contextParameter comment="" name="dwh_password" prompt="dwh_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:vg4kOVJC/1ehn4nMTuhwVMEhc1z4iP58C806qzl3ftaBf3EKZPg="/>
+      <contextParameter comment="" name="COMP_DES" prompt="COMP_DES?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_TYPE_DES" prompt="COMP_TYPE_DES?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_TIME_ZONE_COD" prompt="COMP_TIME_ZONE_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_CURR_COD" prompt="COMP_CURR_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_CURRENCY_COD" prompt="COMP_CURRENCY_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_SHARED" prompt="COMP_SHARED?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_COD" prompt="COMP_COD?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_TYPE_COD" prompt="COMP_TYPE_COD?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="COMP_READ" prompt="COMP_READ?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_COD_FINANCIAL" prompt="COMP_COD_FINANCIAL?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="COMP_COD_STD_COST" prompt="COMP_COD_STD_COST?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="erp_host" prompt="erp_host?" promptNeeded="false" type="id_String" value="SRVITADBAP1\ERPLN"/>
+      <contextParameter comment="" name="erp_password" prompt="erp_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:MCePWXlgA83rTPa7iGCWbWYBLEvlPHYEoaWL534tDC4GB9IVRLR3UGwa"/>
+      <contextParameter comment="" name="erp_database" prompt="erp_database?" promptNeeded="false" type="id_String" value="erplndb"/>
+      <contextParameter comment="" name="erp_schema" prompt="erp_schema?" promptNeeded="false" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="erp_username" prompt="erp_username?" promptNeeded="false" type="id_String" value="DABQLIK"/>
+      <contextParameter comment="" name="table_b1" prompt="table_b1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_w1" prompt="table_w1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_s1" prompt="table_s1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_o1" prompt="table_o1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_k1" prompt="table_k1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_g1" prompt="table_g1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_c1" prompt="table_c1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_a1" prompt="table_a1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_z1" prompt="table_z1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_v1" prompt="table_v1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_q" prompt="table_q?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_r1" prompt="table_r1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_r" prompt="table_r?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_s" prompt="table_s?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_t" prompt="table_t?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_u" prompt="table_u?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_n1" prompt="table_n1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_v" prompt="table_v?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_w" prompt="table_w?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_x" prompt="table_x?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_y" prompt="table_y?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_j1" prompt="table_j1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_z" prompt="table_z?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_f1" prompt="table_f1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_a" prompt="table_a?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_b" prompt="table_b?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_c" prompt="table_c?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_d" prompt="table_d?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_e" prompt="table_e?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_f" prompt="table_f?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_g" prompt="table_g?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_h" prompt="table_h?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_i" prompt="table_i?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_j" prompt="table_j?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_y1" prompt="table_y1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_k" prompt="table_k?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_l" prompt="table_l?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_m" prompt="table_m?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_n" prompt="table_n?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_u1" prompt="table_u1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_o" prompt="table_o?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_p" prompt="table_p?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_q1" prompt="table_q1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_m1" prompt="table_m1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_i1" prompt="table_i1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_e1" prompt="table_e1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_x1" prompt="table_x1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_t1" prompt="table_t1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_p1" prompt="table_p1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_l1" prompt="table_l1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_h1" prompt="table_h1?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="table_d1" prompt="table_d1?" promptNeeded="false" type="id_String" value=""/>
     </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -271,6 +271,9 @@
       <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
       <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/TALEND_DAB_NEW/Talend-Studio-V7.2.1/workspace/in.csv&quot;"/>
       <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
       <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
       <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
       <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -283,7 +286,7 @@
       <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:80vC85WI8gxGUGZ66kAxxpHRU30S2I537clUN1cS"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:+NHxssDviS3MgVOZwEA0p6sunDFlrV5gE2Ft9o0Z"/>
       <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
       <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -313,6 +316,11 @@
       <routinesParameter id="_ZJU3AE5nEeqz6cVCCffmHw" name="TalendDate"/>
       <routinesParameter id="_ZKrh4E5nEeqz6cVCCffmHw" name="TalendStringUtil"/>
       <routinesParameter id="_ZJz_ME5nEeqz6cVCCffmHw" name="TalendString"/>
+      <routinesParameter id="_DEZOoGYWEeuH-PHPvJtAVQ" name="DataMasking"/>
+      <routinesParameter id="_DFA5sGYWEeuH-PHPvJtAVQ" name="DQTechnical"/>
+      <routinesParameter id="_DEul0GYWEeuH-PHPvJtAVQ" name="DataQualityDependencies"/>
+      <routinesParameter id="_DElb4GYWEeuH-PHPvJtAVQ" name="DataQuality"/>
+      <routinesParameter id="_DE3vwGYWEeuH-PHPvJtAVQ" name="DqStringHandling"/>
     </parameters>
     <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
@@ -405,7 +413,7 @@
       <elementParameter field="TEXT" name="DBNAME" value="context.dwh_database"/>
       <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
       <elementParameter field="TEXT" name="USER" value="context.dwh_username"/>
-      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:D27jkMkjIpTwqZNO4O1J+G6i9wGubZcCB2AJ6oKOX4gMuhNhPEMVbV+rYx5iY+TV"/>
+      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uWRzD2uSpSN3HzPrIUSuAKf15iD1t0JgyUfrVIOuzMsn9h3YUpUxzBtsVT2gsZAw"/>
       <elementParameter field="DBTABLE" name="TABLE" value="&quot;LOG_DWH&quot;"/>
       <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
       <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -421,6 +429,8 @@
       <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
       <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
       <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+      <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+      <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
       <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
       <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
       <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
@@ -481,14 +491,14 @@
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
       <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
       <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value="tDBConnection_3"/>
-      <elementParameter field="TEXT" name="HOST" value="context.dwh_host"/>
+      <elementParameter field="TEXT" name="HOST" value="&quot;azeutalend.database.windows.net&quot;"/>
       <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
       <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
-      <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
-      <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;logs&quot;"/>
-      <elementParameter field="TEXT" name="DBNAME" value="context.dwh_database"/>
-      <elementParameter field="TEXT" name="USER" value="context.dwh_username"/>
-      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:evgwdOQlpAO8XOA5wocM5IIevfN2fWH9XEjG+R5xDZZmTW4a7BWovHN2P7m5QCsF"/>
+      <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
+      <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;temp&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME" value="&quot;DbGroupDW01&quot;"/>
+      <elementParameter field="TEXT" name="USER" value="&quot;H_TalendEtl&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8VtIzTxImR9gc5K3NXGRojz3wJwhXddSndbP9p+VKHaYp/I7Yldib+i0bR2yWz0="/>
       <elementParameter field="DBTABLE" name="TABLE" value="&quot;LOG_ERRORS_TALEND&quot;"/>
       <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
       <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -558,13 +568,13 @@
     </subjob>
   </model:JobletProcess>
   <TalendProperties:ByteArray/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d373ec7e-e5a5-4b67-86fc-d328cb221585"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Bhhu3Y/0N0R/KG61i7ZjZjwPbUSmPdcqsoKx9scgPBSTFpvdWFRnh6OLye5sPmx1sFL3aA/x35Bz
-1aW//09tEQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_891173c1-6edb-4a1f-aabb-a9e6d7a5e0a2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ccsatFP3rYq5cQzgoUuMqQmgC25mzanlO8H0iENL5oMKN7NHpB5GKqubPC6dU4O9v1WHMhMdkYWg
-v/58zj+4Ng==</DigestValue></Reference></SignedInfo><SignatureValue>Upgjf341jERuEIMCJts8mem8QL2nTMr5aBHAg0VkbMWkXDAcoImeFeoY2STszjmNqbHoW1UODHl8
-4hdcMnkrwmYVKa6Xxibbllwp/rO9Zd3aeB3JwqF9Z+3Fqlc2w49LaFlFKArfqwsOwtzK2wmxET6Z
-xZTqXm8ntMhOsFhRTBJMpimRcVEL/2JVpoxN/gLHMt1o5bceqafldpR5ENTux4LZsztVH6WEjIYb
-w+/R3sBboSR+/AluFKigqTrnwUe7jsRgoImmF5HQYUJwmWx92HTRGEk3blSXTalEJFYIYswvGPs5
-cAHLC93AA6HlGyJ2AvIEBxM+9lbaq0pzxdGgTw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b30f04ba-d010-4a5c-8f4b-7aa0c72f0cf7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+RUyu0n6Vsa2siZhLmqlI9Tc1r4GjRGyLKUWiqekfruzDIs8K0ehPYJKshd5sluxSEir7tN9Q0O2
+rqvHtPWVdw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bce79fcf-4ae7-4647-a365-26195f707e27"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LI28+Wimix4oQyVa678vzL9hOPyeykwty+DW2JLMcNjJrkIX/6p3yj9tRr2OQx7IhuufMTemBYAw
+gJyoWEEN6g==</DigestValue></Reference></SignedInfo><SignatureValue>NAbuupBOjupm8XSQYSRHDFRIBzLEOX2OEybYh97rzr0XWnX+xMHqC/LxXs2rHFBjPkXpF4i8P5p/
+yTC8x3r9y9rr5Bibl7B8p44wN5+Am4uH1NAGTm4lyo8xj8wTwsltQ3Ps7fNuX9QSysN4xVwDKS//
+EE2iNJVND7uenaSqaOHYJI3iZMtppev9rHzYqhzExeX+SpSykjSkx6X4Sq6zCxuQkHwGYHBAOb08
+oAC6Rl8QvumiahZ8+AlFuD5uZuGOZiMKKPKKJFNPLKwVC/eqTApkq2JVhSeAixfcJe9rYZ2TU45V
+KCCsrJw1RgaTpPsaIn3TMM012OCkD5yNa+/fgw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -586,4 +596,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_891173c1-6edb-4a1f-aabb-a9e6d7a5e0a2" Target="#_d373ec7e-e5a5-4b67-86fc-d328cb221585"><Timestamp>2021-02-09 10:11:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bce79fcf-4ae7-4647-a365-26195f707e27" Target="#_b30f04ba-d010-4a5c-8f4b-7aa0c72f0cf7"><Timestamp>2021-02-09 13:41:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
