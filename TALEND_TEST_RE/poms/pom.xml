@@ -19,6 +19,7 @@
     <module>jobs/joblets/log_error_0.1</module>
     <module>jobs/joblets/log_start_0.1</module>
     <module>jobs/joblets/log_end_0.1</module>
+    <module>jobs/process/main_staging_test_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
