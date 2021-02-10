@@ -23,6 +23,7 @@
     <module>jobs/process/ZZ_TEST/test_caricamento_uub1rep_no_schema_dinamico_0.1</module>
     <module>jobs/process/ZZ_TEST/test_caricamento_uub1rep_no_schema_dinamico_ridotto_23_campi_0.1</module>
     <module>jobs/process/ZZ_TEST/test_caricamento_uub1rep_schema_dinamico_ridotto_23_campi_0.1</module>
+    <module>jobs/process/Staging/caricamento_staging_ita_schema_dinamico_completo_test_copy_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
