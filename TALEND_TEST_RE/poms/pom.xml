@@ -22,6 +22,7 @@
     <module>jobs/process/caricamento_staging_ita_test_schema_dinamico_completo_0.1</module>
     <module>jobs/process/caricamento_staging_uub1rep_schema_dinamico_completo_0.1</module>
     <module>jobs/process/test_caricamento_uub1rep_schema_dinamico_ridotto_23_campi_0.1</module>
+    <module>jobs/process/caricamento_staging_ita_test_schema_dinamico_completo_copy_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
