@@ -242,6 +242,10 @@
     "version" : "Latest",
     "type" : "context"
   }, {
+    "id" : "TALEND_TEST_RE:_D7OCsGvZEeubl99irx-dMw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "_-0mlQFpgEeubGN6kYlyInQ",
     "version" : "Latest",
     "type" : "property"
