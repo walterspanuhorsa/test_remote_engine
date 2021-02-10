@@ -168,7 +168,7 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "SCHEMA_DB",
-        "value" : "\"temp\"",
+        "value" : "\"talendLog\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:fR05LHZ1gq+Th+dbIaMW40pxRfJ6IsOoNYeDSSAsU8KDosKCl10ixAKO407iwls=",
+        "value" : "enc:system.encryption.key.v1:b1DPhOTodI1a7kFlR30Z3pzVZMoxiFz7+Fq4pIaD5rqMKBajZ910VDqBicGZvSk=",
         "contextMode" : false
       }, {
         "show" : true,
@@ -240,7 +240,7 @@
         "show" : true,
         "field" : "TECHNICAL",
         "name" : "PROPERTY_TYPE:PROPERTY_TYPE",
-        "value" : "REPOSITORY",
+        "value" : "BUILT_IN",
         "contextMode" : false
       }, {
         "show" : true,
